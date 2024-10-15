@@ -78,15 +78,17 @@ Create a new file named **index.html**. Add the following HTML:
 
 ### Launch the application
 
-It's always best to develop iteratively to see how things look. Let's launch our application. There's a wonderful extension for Visual Studio Code called [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer&WT.mc_id=academic-77807-sagibbon) which will both host your application locally and refresh the browser each time you save.
+It's always best to develop iteratively to see how things look. Let's launch our application. 
 
-- Install [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer&WT.mc_id=academic-77807-sagibbon) by following the link and clicking **Install**
-  - You will be prompted by the browser to open Visual Studio Code, and then by Visual Studio Code to perform the installation
-  - Restart Visual Studio Code if prompted
-- Once installed, in Visual Studio Code, click Ctrl-Shift-P (or Cmd-Shift-P) to open the command palette
-- Type **Live Server: Open with Live Server**
-  - Live Server will start hosting your application
-- Open a browser and navigate to **https://localhost:5500**
+- In the terminal of your code space navigate to the folder
+```
+cd typing-game
+```
+- Now launch your app
+```
+php -S localhost:3006 -t ./
+```
+- Open a browser and navigate to **https://localhost:3006**
 - You should now see the page you created!
 
 Let's add some functionality.
